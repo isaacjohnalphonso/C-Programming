@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+  int cel;
+  printf("Celcius Farhenheit\n"); 
+  for(cel=300; cel>=0; cel=cel-20)
+    printf("%3d\t\t%6.1f\n",cel,((9.0/5)*cel)+32);
+}
