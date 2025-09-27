@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+float celcius;
+int fahr, upper, lower, step;
+
+upper=300;
+lower=0;
+step=20;
+
+fahr=lower;
+printf("Farenheit\t Celcius\n");
+while(fahr<=upper)
+{
+ celcius=(5.0/9)*(fahr-32);
+ 
+ printf("\t%3d\t\t\t%6.1f\n", fahr, celcius);
+ fahr=fahr+step;
+}
+}
